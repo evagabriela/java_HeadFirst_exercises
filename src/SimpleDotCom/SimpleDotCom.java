@@ -16,7 +16,7 @@ public class SimpleDotCom {
         String result = "miss";
         for (int cell : locationsCells){
             if (guess == cell){
-                result = "hi";
+                result = "hit";
                 numOfHits++;
                 break;
             }
